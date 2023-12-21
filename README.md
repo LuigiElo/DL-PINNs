@@ -7,3 +7,5 @@ This project was made as an exploration of the applications of physics-informed 
 To demonstrate their efficacy in approximating a small-scale wave problem derived from fluid dynamics, a PINN was specifically formulated and contrasted against a purely data-driven approach using an identical feed-forward neural network architecture to the PINN. The comparison revealed a substantial reduction in the required data points for the PINN compared to the purely data-driven model, coupled with superior performance in yielding more accurate results. Furthermore, the adaptability of the PINN was notably demonstrated when accommodating the introduction of a body into the water scenario.
 
 The file ModelWithBody contains the notebook for the Model with Body, containing the pre-trained model and the two implementations.
+The file FinetunedModel contains the notebook for the fine tuned model, containing the comparison between w/ and w/o SoftAdapt.
+The file DataDrivenModel contains the notebook with a model following a data-driven for comparison with our model.
