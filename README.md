@@ -9,4 +9,4 @@ To demonstrate their efficacy in approximating a small-scale wave problem derive
 Contents:
 - **ModelWithBody**: notebook for the Model with Body, containing the pre-trained model and the two implementations
 - **FinetunedModel**: notebook for the fine tuned model, containing the comparison between w/ and w/o SoftAdapt
-- **DataDrivenModel**: the notebook with a model following a data-driven for comparison with our model
+- **DataDrivenModel**: notebook with a model following a data-driven for comparison with our model
